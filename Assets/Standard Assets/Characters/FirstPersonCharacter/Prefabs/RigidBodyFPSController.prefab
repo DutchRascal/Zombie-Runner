@@ -414,11 +414,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carbine
       objectReference: {fileID: 0}
+    - target: {fileID: 333479487509396531, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 2000000}
+    - target: {fileID: 333479487509396531, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 3668930822165663703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
 --- !u!4 &1251670792248748352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3544376219463429862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3668930822165663703 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 277690734174216497, guid: ada2587319194f542957a8c2ae277cb9,
     type: 3}
   m_PrefabInstance: {fileID: 3544376219463429862}
   m_PrefabAsset: {fileID: 0}
