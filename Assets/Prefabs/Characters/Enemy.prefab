@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2292672369677778354}
   - component: {fileID: 2292672369677778365}
   - component: {fileID: 2292672369677778364}
+  - component: {fileID: 6045885619548965460}
   - component: {fileID: 339200907216902775}
   - component: {fileID: 2292672369677778353}
-  - component: {fileID: 6045885619548965460}
   - component: {fileID: 7766012499586609481}
   m_Layer: 0
   m_Name: Enemy
@@ -120,6 +120,25 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &6045885619548965460
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2292672369677778367}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a55c57a7dcd94b6db8153401cf7d615, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &339200907216902775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,25 +167,6 @@ MonoBehaviour:
   target: {fileID: 0}
   chaseRange: 10
   isProvoked: 0
---- !u!95 &6045885619548965460
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2292672369677778367}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a55c57a7dcd94b6db8153401cf7d615, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &7766012499586609481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c5f36e01552488b9e9b610dddf1a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   damage: 40
 --- !u!1 &7897692531511991270
 GameObject:

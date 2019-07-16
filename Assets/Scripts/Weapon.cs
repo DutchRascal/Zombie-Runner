@@ -40,8 +40,6 @@ public class Weapon : MonoBehaviour
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
             if (target == null) return;
             target.TakeDamage(damage);
-            EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();
-            enemy.isProvoked = true;
         }
         else
         {
