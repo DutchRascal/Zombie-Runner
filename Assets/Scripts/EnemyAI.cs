@@ -7,12 +7,12 @@ public class EnemyAI : MonoBehaviour
 {
     [SerializeField] Transform target;
     [SerializeField] float chaseRange = 5f;
+    [SerializeField] float turnSpeed = 5f;
 
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
-    public bool isProvoked = false;
-    private float turnSpeed = 5;
-
+    bool isProvoked = false;
+    
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
@@ -52,8 +52,8 @@ public class EnemyAI : MonoBehaviour
 
     private void ChaseTarget()
     {
-        GetComponent<Animator>().SetTrigger("move");
         GetComponent<Animator>().SetBool("attack", false);
+        GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
     }
 
