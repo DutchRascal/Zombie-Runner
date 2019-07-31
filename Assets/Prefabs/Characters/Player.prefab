@@ -342,7 +342,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf357a19ea5804d5b94e4dc16e58995c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 10
+  - ammoType: 1
+    ammoAmount: 20
+  - ammoType: 2
+    ammoAmount: 8
 --- !u!114 &3213390623107858131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,6 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 065d3fbc6fe07434db23ea18cd4e736a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentWeapon: 0
 --- !u!114 &3515584392014567816
 MonoBehaviour:
   m_ObjectHideFlags: 0

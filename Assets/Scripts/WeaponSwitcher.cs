@@ -8,12 +8,13 @@ public class WeaponSwitcher : MonoBehaviour
 
     [SerializeField] int currentWeapon = 0;
 
+    Weapon weaponShoot;
+
     void Start()
     {
+        weaponShoot = GetComponentInChildren<Weapon>();
         SetWeaponActive();
     }
-
-
 
     void Update()
     {
@@ -34,6 +35,7 @@ public class WeaponSwitcher : MonoBehaviour
             if (weaponIndex == currentWeapon)
             {
                 weapon.gameObject.SetActive(true);
+                weaponShoot.canShoot = true;
             }
             else
             {
