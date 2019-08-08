@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 2337074158999389510}
   - component: {fileID: 333479487509396531}
   m_Layer: 0
-  m_Name: Shotgun
+  m_Name: Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -260,7 +260,7 @@ Transform:
   m_GameObject: {fileID: 2337074158997199750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 2, z: 4}
+  m_LocalScale: {x: 0.5, y: 1, z: 1}
   m_Children:
   - {fileID: 2337074158996965284}
   - {fileID: 2337074158996965280}
@@ -296,7 +296,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd7d913eb2fa37e42aa33d74fa851edb, type: 2}
+  - {fileID: 2100000, guid: 5908d155f1565f94faad3072c8d23238, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -329,14 +329,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 0}
-  range: 10
-  damage: 60
+  range: 25
+  damage: 15
   muzzleFlash: {fileID: 277690734174216497}
   hitEffect: {fileID: 1766814854480755888, guid: c0afdbdb1803a3242974df91a270faed,
     type: 3}
   ammoSlot: {fileID: 0}
-  ammoType: 1
-  timeBetweenShots: 2
+  timeBetweenShots: 0.2
 --- !u!1 &2337074158997199752
 GameObject:
   m_ObjectHideFlags: 0
