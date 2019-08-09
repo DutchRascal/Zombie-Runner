@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 6083546874002943102}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,6 +403,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7521453263524303661}
     m_Modifications:
+    - target: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Carbine
+      objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -473,26 +478,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
-        type: 3}
-      propertyPath: m_Name
-      value: Carbine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 333479487509396531, guid: ada2587319194f542957a8c2ae277cb9,
-        type: 3}
-      propertyPath: ammoSlot
-      value: 
-      objectReference: {fileID: 6083546874002943102}
     - target: {fileID: 333479487509396531, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 2000000}
+    - target: {fileID: 333479487509396531, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 6083546874002943102}
     - target: {fileID: 6577499619474963397, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: fpsCamera
@@ -518,6 +513,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7521453263524303661}
     m_Modifications:
+    - target: {fileID: 2337074158997199750, guid: 4e7db802151bc0e48ad38a3b76b2727a,
+        type: 3}
+      propertyPath: m_Name
+      value: Shotgun
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337074158997199750, guid: 4e7db802151bc0e48ad38a3b76b2727a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 4e7db802151bc0e48ad38a3b76b2727a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -572,11 +577,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 5.2900004
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337074158997199750, guid: 4e7db802151bc0e48ad38a3b76b2727a,
-        type: 3}
-      propertyPath: m_Name
-      value: Shotgun
       objectReference: {fileID: 0}
     - target: {fileID: 333479487509396531, guid: 4e7db802151bc0e48ad38a3b76b2727a,
         type: 3}
@@ -603,6 +603,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7521453263524303661}
     m_Modifications:
+    - target: {fileID: 2337074158997199750, guid: 0e46072e0a393ec4b9045a1b25e24678,
+        type: 3}
+      propertyPath: m_Name
+      value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337074158997199750, guid: 0e46072e0a393ec4b9045a1b25e24678,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 0e46072e0a393ec4b9045a1b25e24678,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -657,11 +667,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 5.2900004
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337074158997199750, guid: 0e46072e0a393ec4b9045a1b25e24678,
-        type: 3}
-      propertyPath: m_Name
-      value: Pistol
       objectReference: {fileID: 0}
     - target: {fileID: 333479487509396531, guid: 0e46072e0a393ec4b9045a1b25e24678,
         type: 3}
