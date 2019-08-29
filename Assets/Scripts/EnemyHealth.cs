@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +17,7 @@ public class EnemyHealth : MonoBehaviour
     {
         BroadcastMessage("OnDamageTaken");
         hitPoints -= damage;
-        if (hitPoints <= 0 && !isDead)
+        if (hitPoints <= 0)
         {
             Die();
         }
@@ -26,7 +25,8 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        GetComponent<Animator>().SetTrigger("die");
+        if (isDead) return;
         isDead = true;
+        GetComponent<Animator>().SetTrigger("die");
     }
 }

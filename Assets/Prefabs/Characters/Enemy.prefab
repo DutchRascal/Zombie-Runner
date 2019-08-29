@@ -34,7 +34,7 @@ Transform:
   m_LocalPosition: {x: -14.083326, y: 4.650972, z: -7.0939097}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2888226162433930634}
+  - {fileID: 5257161376467278649}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -88,7 +88,7 @@ CapsuleCollider:
   m_Radius: 0.37
   m_Height: 1.9
   m_Direction: 1
-  m_Center: {x: 0, y: 0.9, z: 0}
+  m_Center: {x: 0, y: 0.89, z: 0}
 --- !u!195 &2292672369677778364
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 40
---- !u!1001 &2883485121005655326
+--- !u!1001 &5252332410351909805
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -229,9 +229,9 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 95053064929079256, guid: 0584839bceadb844fa31b1ca352056ba, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0584839bceadb844fa31b1ca352056ba, type: 3}
---- !u!4 &2888226162433930634 stripped
+--- !u!4 &5257161376467278649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4846736819855508, guid: 0584839bceadb844fa31b1ca352056ba,
     type: 3}
-  m_PrefabInstance: {fileID: 2883485121005655326}
+  m_PrefabInstance: {fileID: 5252332410351909805}
   m_PrefabAsset: {fileID: 0}
